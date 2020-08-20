@@ -1,0 +1,7 @@
+LIBRARY DXGI.DLL
+EXPORTS
+    CreateDXGIFactory=proxy_CreateDXGIFactory @9
+    CreateDXGIFactory1=proxy_CreateDXGIFactory1 @10
+    CreateDXGIFactory2=proxy_CreateDXGIFactory2 @11
+    DXGIDeclareAdapterRemovalSupport=proxy_DXGIDeclareAdapterRemovalSupport @16
+    DXGIGetDebugInterface1=proxy_DXGIGetDebugInterface1 @17
